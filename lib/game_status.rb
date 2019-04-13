@@ -53,5 +53,6 @@ def over?(board)
 end
 
 def winner(board)
-
+  if won?(board)
+    winning_token = won?(board)
 end
