@@ -55,6 +55,6 @@ end
 def winner(board)
   if won?(board)
     winning_token = won?(board)
-    return board[winning_token]
+    return winning_token[0]
   end
 end
