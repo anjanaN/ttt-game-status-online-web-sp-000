@@ -55,4 +55,6 @@ end
 def winner(board)
   if won?(board)
     winning_token = won?(board)
+    return winning_token
+  end
 end
